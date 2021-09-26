@@ -1,25 +1,10 @@
-# Welcome!
+#include<iostream>
 
-This C# template lets you get started quickly with a simple one-page playground.
+using namespace std;
 
-```C# runnable
-// { autofold
-using System;
+int main () {
 
-class Hello 
-{
-    static void Main() 
-    {
-// }
+    cout << " hellow world" ;
 
-Console.WriteLine("Hello World!");
-
-// { autofold
-    }
+    return 0;
 }
-// }
-```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced C# template](https://tech.io/select-repo/386)
